@@ -14,6 +14,6 @@ Prior to that, I received my B.S. degree (2023) in Mathematics and Applied Mathe
 
 I have a great interest in applied mathematics, especially in the interdisciplinary field involving mathematics.  My aspiration is to combine mathematics with  machine intelligence  across diverse fields, tackling practical challenges and advancing our comprehension of fundamental principles and mechanisms. That’s what I want to pursue in the future. 
 
-Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
+**Email**: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t_9Jh4tx9t-0rGCRbisirdbYPSh8djLHWa55wn7w308&cl=ffffff&w=a"></script> -->
