@@ -12,7 +12,7 @@ I am currently a Ph.D. student in computational mathematics at [School of Mathem
 
 Prior to that, I received my B.S. degree (2023) in Mathematics and Applied Mathematics from [Cuiying Honors College](https://cycollege.lzu.edu.cn), [Lanzhou University](https://en.lzu.edu.cn/static/Overview/). During June 2022 to September 2023, I conducted research under the guidance of  Dr. [Zhennan Zhou](https://its.westlake.edu.cn/info/1108/2087.htm), at [Beijing International Center for Mathematical Research](https://bicmr.pku.edu.cn/), Peking University.
 
-I have a great interest in applied mathematics, especially in the interdisciplinary field involving mathematics.  My aspiration is to combine mathematics with  machine intelligence  across diverse fields, tackling practical challenges and advancing our comprehension of fundamental principles and mechanisms. That’s what I want to pursue in the future. 
+I have a great interest in applied mathematics, especially in the interdisciplinary field involving mathematics.  My aspiration is to combine mathematics with  machine intelligence to tackle practical challenges  across diverse fields and advance our comprehension of fundamental principles and mechanisms. That’s what I want to pursue in the future. 
 
 Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
