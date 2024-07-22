@@ -16,4 +16,8 @@ I have a great interest in applied mathematics, especially in the interdisciplin
 
 Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
+### [Publications](/publications/)
+
+1. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), under review, Z. Zhang, S. Ma and Z. Zhou.
+
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t_9Jh4tx9t-0rGCRbisirdbYPSh8djLHWa55wn7w308&cl=ffffff&w=a"></script> -->
