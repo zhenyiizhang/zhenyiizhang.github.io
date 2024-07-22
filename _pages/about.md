@@ -18,14 +18,14 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
 ### Education
 
-- Ph.D. student in Computational Mathematics, School of Mathematical Sciences, Peking University, China, Sept. 2023 - Present
+- Ph.D. student in Computational Mathematics, School of Mathematical Sciences, Peking University, China, Sept. 2023 - Present.
   - Supervisor: Professor Tiejun Li. Co-advised by Dr. Peijie Zhou.
-- B.S. in Mathematics and Applied Mathematics, Cuiying Honors College, Lanzhou University, China, Sept. 2019 - Jun. 2023
+- B.S. in Mathematics and Applied Mathematics, Cuiying Honors College, Lanzhou University, China, Sept. 2019 - Jun. 2023.
 
 ### Experiences
 
 - Peking University, BICMR, visiting undergraduate student, Beijing, China, Jul. 2022 - Aug. 2022.
-  - Advisor: Dr. Zhennan Zhou
+  - Advisor: Dr. Zhennan Zhou.
 
 
 ### [Publications](/publications/)
@@ -40,8 +40,8 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
 ### Honors and Scholarship (Selected)
 
-- Scholarship of School of Mathematical Sciences, Peking University, 2024
-- National Scholarship, China, 2023
-- National Scholarship, China, 2021
+- Scholarship of School of Mathematical Sciences, Peking University, 2024.
+- National Scholarship, China, 2023.
+- National Scholarship, China, 2021.
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t_9Jh4tx9t-0rGCRbisirdbYPSh8djLHWa55wn7w308&cl=ffffff&w=a"></script> -->
