@@ -35,7 +35,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn)
 
 ### [Teaching](/teaching/)
 
-- Teaching Assistant
+- [Teaching Assistant]((/teaching/))
 
 ### Honors and Scholarship (Selected)
 
