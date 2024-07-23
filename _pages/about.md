@@ -41,7 +41,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 ### Honors and Scholarship (Selected)
 
 - Scholarship of School of Mathematical Sciences, Peking University, 2024.
-- National Scholarship, China, 2023.
-- National Scholarship, China, 2021.
+- National Scholarship, China, 2022.
+- National Scholarship, China, 2020.
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t_9Jh4tx9t-0rGCRbisirdbYPSh8djLHWa55wn7w308&cl=ffffff&w=a"></script> -->
