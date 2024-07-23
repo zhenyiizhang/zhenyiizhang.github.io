@@ -24,7 +24,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 ### Experiences
 
-- Peking University, BICMR, visiting undergraduate student, Beijing, China, Jul. 2022 - Aug. 2022.
+- Peking University, BICMR, visiting undergraduate student, Beijing, China, Jun. 2022 - Aug. 2022.
   - Advisor: Dr. Zhennan Zhou.
 
 
