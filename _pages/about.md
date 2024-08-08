@@ -43,7 +43,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 ### Honors and Scholarship (Selected)
 
 - Scholarship of School of Mathematical Sciences, Peking University, 2024.
-- National Undergraduate Training Program for Innovation, Ministry of Education, China, 2022. 
+- National Training Program for Innovation, Ministry of Education, China, 2022. 
 - National Scholarship, Ministry of Education, China, 2022.
 - National Scholarship, Ministry of Education, China, 2020.
 
