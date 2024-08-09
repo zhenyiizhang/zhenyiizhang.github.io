@@ -27,7 +27,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 - Peking University, BICMR, visiting undergraduate student, Beijing, China, Jun. 2022 - Aug. 2022.
   - Advisor: Prof. Zhennan Zhou.
 
-- Shanghai Jiao Tong Univeristy, visiting undergradtuate student, Shanghai, China, July 2021.
+- Shanghai Jiao Tong Univeristy, visiting undergraduate student, Shanghai, China, July 2021.
 
 ### [Publications](/publications/)
 
