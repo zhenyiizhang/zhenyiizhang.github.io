@@ -33,7 +33,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 1. 2024 *submitted*.
 
-2. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), Zhenyi Zhang, Shengbo Ma and Zhennan Zhou (accepted).
+2. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), Zhenyi Zhang, Shengbo Ma and Zhennan Zhou (accepted by *Commun. Comput. Phys.*).
 
 
 
