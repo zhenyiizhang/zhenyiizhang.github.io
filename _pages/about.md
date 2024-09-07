@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a Ph.D. student in computational mathematics at School of Mathematical Sciences, Peking University. My Ph.D. supervisor is Prof. [Tiejun Li](https://www.math.pku.edu.cn/teachers/litj/) and I am co-supervised by Prof. [Peijie Zhou](https://cliffzhou92.github.io/). My current research interests lie in *computational systems biology*, *AI for science*, and *machine learning*. 
 
-Prior to that, I received my B.S. degree (2023) in Mathematics and Applied Mathematics from [Cuiying Honors College](http://chc.lzu.edu.cn), Lanzhou University. During June 2022 to September 2023, I conducted research under the guidance of  Prof. [Zhennan Zhou](https://its.westlake.edu.cn/info/1108/2087.htm), at Beijing International Center for Mathematical Research (BICMR), Peking University.
+Prior to that, I received my B.S. degree (2023) in Mathematics and Applied Mathematics from [Cuiying Honors College](http://chc.lzu.edu.cn), Lanzhou University. 
 
 I have a great interest in applied mathematics, especially in the interdisciplinary field involving mathematics.  My aspiration is to combine mathematics with  machine intelligence to tackle practical challenges  across diverse fields and advance our comprehension of fundamental principles and mechanisms. That’s what I want to pursue in the future. 
 
@@ -24,8 +24,8 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 ### Experiences
 
-- Peking University, BICMR, visiting undergraduate student, Beijing, China, Jun. 2022 - Aug. 2022.
-  - Advisor: Prof. Zhennan Zhou.
+- Peking University, Beijing International Center for Mathematical Research (BICMR), visiting undergraduate student, Beijing, China, Jun. 2022 - Aug. 2022.
+  - Advisor: Prof. [Zhennan Zhou](https://its.westlake.edu.cn/info/1108/2087.htm).
 
 - Shanghai Jiao Tong Univeristy, visiting undergraduate student, Shanghai, China, July 2021.
 
