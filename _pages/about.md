@@ -31,7 +31,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 ### [Publications](/publications/)
 
-1. Deep learning-enabled genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos, 2024 *submitted*.
+1. Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning, 2024 09 *submitted*.
 
 2. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), Zhenyi Zhang, Shengbo Ma and Zhennan Zhou (accepted by *Commun. Comput. Phys.*).
 
