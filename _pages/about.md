@@ -32,7 +32,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 ### [Publications](/publications/)
 (* indicates corresponding author, † indicates equal contribution.)
 
-1. [Learning Stochastic Dynamics from Snapshots through Regularized Unbalanced Optimal Transport](https://arxiv.org/abs/2410.00844),arxiv:2410.00844, **Zhenyi Zhang**, Tiejun Li* and Peijie Zhou*.
+1. [Learning Stochastic Dynamics from Snapshots through Regularized Unbalanced Optimal Transport](https://arxiv.org/abs/2410.00844), arxiv:2410.00844, **Zhenyi Zhang**, Tiejun Li* and Peijie Zhou*.
 
 2. Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning, 2024, 09, **Zhenyi Zhang**, Jie Qiao, Yidong Chen* and Peijie Zhou*, *submitted*.
 
