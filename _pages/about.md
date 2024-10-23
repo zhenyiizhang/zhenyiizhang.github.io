@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year Ph.D. student in computational mathematics at School of Mathematical Sciences, Peking University. My Ph.D. supervisor is Prof. [Tiejun Li](https://www.math.pku.edu.cn/teachers/litj/) and I am co-supervised by Dr. [Peijie Zhou](https://cliffzhou92.github.io/). My current research interests lie in *computational systems biology*, *AI for science*, and *dynamical systems theory and compuational methods*. 
+I am currently a second-year Ph.D. student in computational mathematics at School of Mathematical Sciences, Peking University. My Ph.D. supervisor is Prof. [Tiejun Li](https://www.math.pku.edu.cn/teachers/litj/) and I am co-supervised by Prof. [Peijie Zhou](https://cliffzhou92.github.io/). My current research interests lie in *computational systems biology*, *AI for science*, and *dynamical systems theory and compuational methods*. 
 
 Prior to that, I received my B.S. degree (2023) in Mathematics and Applied Mathematics from [Cuiying Honors College](http://chc.lzu.edu.cn), Lanzhou University. 
 
