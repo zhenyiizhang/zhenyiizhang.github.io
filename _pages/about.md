@@ -31,11 +31,11 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 ### [Publications](/publications/)
 
-1. [Learning Stochastic Dynamics from Snapshots through Regularized Unbalanced Optimal Transport](https://arxiv.org/abs/2410.00844), arxiv preprint arxiv:2410.00844, Zhenyi Zhang, Tiejun Li and Peijie Zhou.
+1. [Learning Stochastic Dynamics from Snapshots through Regularized Unbalanced Optimal Transport](https://arxiv.org/abs/2410.00844),arxiv:2410.00844, **Zhenyi Zhang**, Tiejun Li and Peijie Zhou.
 
-2. Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning, 2024 09 *submitted*.
+2. Genetic deconvolution of embryonic and maternal cell-free DNA in spent medium of human preimplantation embryos through deep learning, 2024, 09, **Zhenyi Zhang**, Jie Qiao, Yidong Chen and Peijie Zhou, *submitted*.
 
-3. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), Zhenyi Zhang, Shengbo Ma and Zhennan Zhou (accepted by *Commun. Comput. Phys.*).
+3. [Uncertainty Quantification of Phase Transition Problems with an Injection Boundary](https://arxiv.org/abs/2402.02806), arXiv preprint arXiv:2402.02806 (2024), **Zhenyi Zhang**, Shengbo Ma and Zhennan Zhou (accepted by *Commun. Comput. Phys.*).
 
 
 
