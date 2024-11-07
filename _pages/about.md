@@ -29,7 +29,7 @@ Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn).
 
 - Shanghai Jiao Tong Univeristy, visiting undergraduate student, Shanghai, China, July 2021.
 
-### [Publications](/publications/)
+### Publications
 (* indicates corresponding author, † indicates equal contribution)
 
 1. [Learning Stochastic Dynamics from Snapshots through Regularized Unbalanced Optimal Transport](https://arxiv.org/abs/2410.00844), arxiv:2410.00844, **Zhenyi Zhang**, Tiejun Li* and Peijie Zhou*.
