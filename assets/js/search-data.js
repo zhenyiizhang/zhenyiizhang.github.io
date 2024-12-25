@@ -44,6 +44,13 @@ ninja.data = [{
           title: 'Our new paper was released on arxiv. :fire:',
           description: "",
           section: "News",},{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/zhenyiizhang", "_blank");
+        },
+      },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
