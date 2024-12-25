@@ -25,28 +25,23 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/assets/pdf/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-our-paper-was-accpeted-by-commun-comput-phys-tada-this-is-a-joint-work-with-prof-zhennan-zhou-westlake-university-and-shengbo-ma-zhejiang-university",
+          title: 'Our paper was accpeted by Commun. Comput. Phys. :tada: This is a joint...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-new-paper-was-released-on-arxiv-fire",
+          title: 'Our new paper was released on arxiv. :fire:',
           description: "",
           section: "News",},{
         id: 'social-researchgate',
