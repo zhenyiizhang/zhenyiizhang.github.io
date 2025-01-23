@@ -40,8 +40,8 @@ ninja.data = [{
         },{id: "news-our-paper-was-accpeted-by-commun-comput-phys-tada-this-is-a-joint-work-with-prof-zhennan-zhou-westlake-university-and-shengbo-ma-zhejiang-university",
           title: 'Our paper was accpeted by Commun. Comput. Phys. :tada: This is a joint...',
           description: "",
-          section: "News",},{id: "news-our-new-paper-was-released-on-arxiv-fire",
-          title: 'Our new paper was released on arxiv. :fire:',
+          section: "News",},{id: "news-excited-to-see-that-our-paper-was-accepted-by-iclr-2025-tada-tada-a-wonderful-collaboration-with-prof-tiejun-li-and-dr-peijie-zhou",
+          title: 'Excited to see that our paper was accepted by ICLR 2025 :tada: :tada:....',
           description: "",
           section: "News",},{
         id: 'social-github',
