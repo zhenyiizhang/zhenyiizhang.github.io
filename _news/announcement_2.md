@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to see that our paper was accepted by **ICLR 2025** :tada: :tada:. A wonderful collaboration with Prof. Tiejun Li and Dr. Peijie Zhou.
+Excited to share our paper was accepted by **ICLR 2025** :tada: :tada:. A wonderful collaboration with Prof. Tiejun Li and Dr. Peijie Zhou.
