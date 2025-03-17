@@ -43,6 +43,9 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-share-our-paper-was-accepted-by-iclr-2025-tada-tada-and-it-has-also-been-selected-for-an-oral-presentation-an-incredible-journey-working-alongside-prof-tiejun-li-and-dr-peijie-zhou-on-this-project",
           title: 'Excited to share our paper was accepted by ICLR 2025 :tada: :tada: and...',
           description: "",
+          section: "News",},{id: "news-exciting-to-share-our-latest-review-on-modeling-cellular-dynamics-we-explore-how-scrna-seq-spatial-transcriptomics-and-advanced-computational-tools-reveal-spatiotemporal-cell-trajectories-and-fate-decisions",
+          title: 'Exciting to share our latest review on modeling cellular dynamics! We explore how...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
