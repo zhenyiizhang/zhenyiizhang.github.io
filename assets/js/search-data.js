@@ -43,8 +43,8 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-share-our-paper-was-accepted-by-iclr-2025-tada-tada-and-it-has-also-been-selected-for-an-oral-presentation-an-incredible-journey-working-alongside-prof-tiejun-li-and-dr-peijie-zhou-on-this-project",
           title: 'Excited to share our paper was accepted by ICLR 2025 :tada: :tada: and...',
           description: "",
-          section: "News",},{id: "news-excited-to-share-our-latest-review-on-modeling-cellular-dynamics-was-accepted-by-entropy-tada-tada-we-explore-how-scrna-seq-spatial-transcriptomics-and-advanced-computational-tools-reveal-spatiotemporal-cell-trajectories-and-fate-decisions-huge-thanks-to-my-collaborators-yuhao-qiangwei-and-my-advisors-prof-tiejun-li-and-dr-peijie-zhou",
-          title: 'Excited to share our latest review on modeling cellular dynamics was accepted by...',
+          section: "News",},{id: "news-excited-to-share-our-latest-review-was-accepted-by-entropy-tada-tada-we-explore-how-scrna-seq-spatial-transcriptomics-and-computational-tools-reveal-spatiotemporal-cell-trajectories-and-fate-decisions-huge-thanks-to-my-collaborators-yuhao-qiangwei-and-my-advisors-prof-li-and-dr-zhou",
+          title: 'Excited to share our latest review was accepted by Entropy! :tada: :tada: We...',
           description: "",
           section: "News",},{
         id: 'social-github',
