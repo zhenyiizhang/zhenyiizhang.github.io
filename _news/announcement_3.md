@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Excited to share our latest review on modeling cellular dynamics was accepted by **Entropy**! :tada: :tada: We explore how scRNA-seq, spatial transcriptomics, and advanced computational tools reveal **spatiotemporal cell trajectories and fate decisions**. Huge thanks to my collaborators, Yuhao, Qiangwei, and my advisors Prof. Tiejun Li and Dr. Peijie Zhou.
+Excited to share our latest review was accepted by **Entropy**! :tada: :tada: We explore how scRNA-seq, spatial transcriptomics, and computational tools reveal **spatiotemporal cell trajectories and fate decisions**. Huge thanks to my collaborators, Yuhao, Qiangwei, and my advisors Prof. Li and Dr. Zhou.
 
 

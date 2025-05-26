@@ -3,6 +3,40 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{zhang2025modelingcelldynamics,
+      abbr={arxiv 2025},
+      author={Zhenyi Zhang† and Zihan Wang† and Yuhao Sun† and Tiejun Li* and Peijie Zhou*},
+      TITLE = {Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge},
+      year={2025},
+      month = {May},
+      publisher={arxiv},
+      doi={10.48550/arXiv.2505.11197},
+      url={https://arxiv.org/abs/2505.11197},
+      html={https://arxiv.org/abs/2505.11197},
+      abstract={Modeling the dynamics from sparsely time-resolved snapshot data is crucial for understanding complex cellular processes and behavior. Existing methods leverage optimal transport, Schrödinger bridge theory, or their variants to simultaneously infer stochastic, unbalanced dynamics from snapshot data. However, these approaches remain limited in their ability to account for cell-cell interactions. This integration is essential in real-world scenarios since intercellular communications are fundamental life processes and can influence cell state-transition dynamics. To address this challenge, we formulate the Unbalanced Mean-Field Schrödinger Bridge (UMFSB) framework to model unbalanced stochastic interaction dynamics from snapshot data. Inspired by this framework, we further propose CytoBridge, a deep learning algorithm designed to approximate the UMFSB problem. By explicitly modeling cellular transitions, proliferation, and interactions through neural networks, CytoBridge offers the flexibility to learn these processes directly from data. The effectiveness of our method has been extensively validated using both synthetic gene regulatory data and real scRNA-seq datasets. Compared to existing methods, CytoBridge identifies growth, transition, and interaction patterns, eliminates false transitions, and reconstructs the developmental landscape with greater accuracy.},
+      preview={figure0.png},
+      bibtex_show={true},
+      selected={true},
+      annotation = {† indicates first author. * indicates corresponding author.},
+}
+
+@article{sun2025variational,
+      abbr={arxiv 2025},
+      author={Yuhao Sun† and Zhenyi Zhang† and Zihan Wang† and Tiejun Li* and Peijie Zhou*},
+      TITLE = {Variational Regularized Unbalanced Optimal Transport: Single Network, Least Action},
+      year={2025},
+      month = {May},
+      publisher={arxiv},
+      doi={10.48550/arXiv.2505.11823},
+      url={https://arxiv.org/abs/2505.11823},
+      html={https://arxiv.org/abs/2505.11823},
+      abstract={Recovering the dynamics from a few snapshots of a high-dimensional system is a challenging task in statistical physics and machine learning, with important applications in computational biology. Many algorithms have been developed to tackle this problem, based on frameworks such as optimal transport and the Schrödinger bridge. A notable recent framework is Regularized Unbalanced Optimal Transport (RUOT), which integrates both stochastic dynamics and unnormalized distributions. However, since many existing methods do not explicitly enforce optimality conditions, their solutions often struggle to satisfy the principle of least action and meet challenges to converge in a stable and reliable way. To address these issues, we propose Variational RUOT (Var-RUOT), a new framework to solve the RUOT problem. By incorporating the optimal necessary conditions for the RUOT problem into both the parameterization of the search space and the loss function design, Var-RUOT only needs to learn a scalar field to solve the RUOT problem and can search for solutions with lower action. We also examined the challenge of selecting a growth penalty function in the widely used Wasserstein-Fisher-Rao metric and proposed a solution that better aligns with biological priors in Var-RUOT. We validated the effectiveness of Var-RUOT on both simulated data and real single-cell datasets. Compared with existing algorithms, Var-RUOT can find solutions with lower action while exhibiting faster convergence and improved training stability.},
+      preview={banner.png},
+      bibtex_show={true},
+      selected={true},
+      annotation = {† indicates first author. * indicates corresponding author.},
+}
+
 @article{zhang2025integratingdynamicalsystemsmodeling,
       abbr={Entropy},
       author={Zhenyi Zhang† and Yuhao Sun† and Qiangwei Peng† and Tiejun Li* and Peijie Zhou*},
