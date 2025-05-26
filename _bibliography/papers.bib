@@ -4,7 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 @article{zhang2025modelingcelldynamics,
-      abbr={arxiv 2025},
+      abbr={arxiv},
       author={Zhenyi Zhang† and Zihan Wang† and Yuhao Sun† and Tiejun Li* and Peijie Zhou*},
       TITLE = {Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge},
       year={2025},
@@ -15,7 +15,6 @@
       html={https://arxiv.org/abs/2505.11197},
       abstract={Modeling the dynamics from sparsely time-resolved snapshot data is crucial for understanding complex cellular processes and behavior. Existing methods leverage optimal transport, Schrödinger bridge theory, or their variants to simultaneously infer stochastic, unbalanced dynamics from snapshot data. However, these approaches remain limited in their ability to account for cell-cell interactions. This integration is essential in real-world scenarios since intercellular communications are fundamental life processes and can influence cell state-transition dynamics. To address this challenge, we formulate the Unbalanced Mean-Field Schrödinger Bridge (UMFSB) framework to model unbalanced stochastic interaction dynamics from snapshot data. Inspired by this framework, we further propose CytoBridge, a deep learning algorithm designed to approximate the UMFSB problem. By explicitly modeling cellular transitions, proliferation, and interactions through neural networks, CytoBridge offers the flexibility to learn these processes directly from data. The effectiveness of our method has been extensively validated using both synthetic gene regulatory data and real scRNA-seq datasets. Compared to existing methods, CytoBridge identifies growth, transition, and interaction patterns, eliminates false transitions, and reconstructs the developmental landscape with greater accuracy.},
       preview={figure0.png},
-      bibtex_show={true},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
@@ -35,7 +34,6 @@
       abstract={Understanding the dynamic nature of biological systems is fundamental to deciphering cellular behavior, developmental processes, and disease progression. Single-cell RNA sequencing (scRNA-seq) has provided static snapshots of gene expression, offering valuable insights into cellular states at a single time point. Recent advancements in temporally resolved scRNA-seq, spatial transcriptomics (ST), and time-series spatial transcriptomics (temporal-ST) have further revolutionized our ability to study the spatiotemporal dynamics of individual cells. These technologies, when combined with computational frameworks such as Markov chains, stochastic differential equations (SDEs), and generative models like optimal transport and Schrödinger bridges, enable the reconstruction of dynamic cellular trajectories and cell fate decisions. This review discusses how these dynamical system approaches offer new opportunities to model and infer cellular dynamics from a systematic perspective.},
       preview={Review_dyn.png},
       doi = {https://doi.org/10.3390/e27050453},
-      bibtex_show={true},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
@@ -59,7 +57,7 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
 
 
 @article{sun2025variational,
-      abbr={arxiv 2025},
+      abbr={arxiv},
       author={Yuhao Sun† and Zhenyi Zhang† and Zihan Wang† and Tiejun Li* and Peijie Zhou*},
       TITLE = {Variational Regularized Unbalanced Optimal Transport: Single Network, Least Action},
       year={2025},
@@ -70,12 +68,11 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
       html={https://arxiv.org/abs/2505.11823},
       abstract={Recovering the dynamics from a few snapshots of a high-dimensional system is a challenging task in statistical physics and machine learning, with important applications in computational biology. Many algorithms have been developed to tackle this problem, based on frameworks such as optimal transport and the Schrödinger bridge. A notable recent framework is Regularized Unbalanced Optimal Transport (RUOT), which integrates both stochastic dynamics and unnormalized distributions. However, since many existing methods do not explicitly enforce optimality conditions, their solutions often struggle to satisfy the principle of least action and meet challenges to converge in a stable and reliable way. To address these issues, we propose Variational RUOT (Var-RUOT), a new framework to solve the RUOT problem. By incorporating the optimal necessary conditions for the RUOT problem into both the parameterization of the search space and the loss function design, Var-RUOT only needs to learn a scalar field to solve the RUOT problem and can search for solutions with lower action. We also examined the challenge of selecting a growth penalty function in the widely used Wasserstein-Fisher-Rao metric and proposed a solution that better aligns with biological priors in Var-RUOT. We validated the effectiveness of Var-RUOT on both simulated data and real single-cell datasets. Compared with existing algorithms, Var-RUOT can find solutions with lower action while exhibiting faster convergence and improved training stability.},
       preview={banner.png},
-      bibtex_show={true},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
 @article{wang2025jointvelocity,
-      abbr={arxiv 2025},
+      abbr={arxiv},
       author={Dongyi Wang† and Yuanwei Jiang† and Zhenyi Zhang† and Xiang Gu* and Peijie Zhou* and Jian Sun*},
       TITLE = {Joint Velocity-Growth Flow Matching for Single-Cell Dynamics Modeling},
       year={2025},
@@ -86,7 +83,6 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
       html={https://arxiv.org/abs/2505.13413},
       abstract={Learning the underlying dynamics of single cells from snapshot data has gained increasing attention in scientific and machine learning research. The destructive measurement technique and cell proliferation/death result in unpaired and unbalanced data between snapshots, making the learning of the underlying dynamics challenging. In this paper, we propose joint Velocity-Growth Flow Matching (VGFM), a novel paradigm that jointly learns state transition and mass growth of single-cell populations via flow matching. VGFM builds an ideal single-cell dynamics containing velocity of state and growth of mass, driven by a presented two-period dynamic understanding of the static semi-relaxed optimal transport, a mathematical tool that seeks the coupling between unpaired and unbalanced data. To enable practical usage, we approximate the ideal dynamics using neural networks, forming our joint velocity and growth matching framework. A distribution fitting loss is also employed in VGFM to further improve the fitting performance for snapshot data. Extensive experimental results on both synthetic and real datasets demonstrate that VGFM can capture the underlying biological dynamics accounting for mass and state variations over time, outperforming existing approaches for single-cell dynamics modeling.},
       preview={flow_matching.png},
-      bibtex_show={true},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
@@ -99,11 +95,11 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
   publisher={arxiv},
   doi={10.48550/arXiv.2402.02806},
   url={https://arxiv.org/abs/2402.02806},
+  html={https://arxiv.org/abs/2402.02806},
   preview={UQicing.png},
   abstract={We develop an enthalpy-based modeling and computational framework to quantify uncertainty in Stefan problems with an injection boundary. Inspired by airfoil icing studies, we consider a system featuring an injection boundary inducing domain changes and a free boundary separating phases, resulting in two types of moving boundaries. Our proposed enthalpy-based formulation seamlessly integrates thermal diffusion across the domain with energy fluxes at the boundaries, addressing a modified injection condition for boundary movement. Uncertainty then stems from random variations in the injection boundary. The primary focus of our Uncertainty Quantification (UQ) centers on investigating the effects of uncertainty on free boundary propagation. Through mapping to a reference domain, we derive an enthalpy-based numerical scheme tailored to the transformed coordinate system, facilitating a simple and efficient simulation. Numerical and UQ studies in one and two dimensions validate the proposed model and the extended enthalpy method. They offer intriguing insights into ice accretion and other multiphysics processes involving phase transitions.},
   additional_info={Accepted by **Communications in Computational Physics**},
   annotation = {† indicates first author. * indicates corresponding author.},
   abbr={CiCP},
-  bibtex_show={true},
   selected={true}
 }
