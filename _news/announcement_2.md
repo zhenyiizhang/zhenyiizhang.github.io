@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was accepted by **ICLR 2025** :tada: :tada: and it has also been selected for an **oral presentation**! An incredible journey working alongside Prof. Tiejun Li and Dr. Peijie Zhou on this project. 
+Our paper (DeepRUOT) was accepted by **ICLR 2025** :tada: and it has also been selected for an **oral presentation**! An incredible journey working alongside Prof. Li and Dr. Zhou on this project. 
