@@ -19,6 +19,41 @@
       annotation = {† indicates first author. * indicates corresponding author.},
 }
 
+@inproceedings{
+zhang2025learning,
+abbr={ICLR 2025 oral},
+title={Learning stochastic dynamics from snapshots through regularized unbalanced optimal transport},
+author={Zhang†, Zhenyi and Li*, Tiejun and Zhou*, Peijie},
+booktitle={The Thirteenth International Conference on Learning Representations},
+abstract={Reconstructing dynamics using samples from sparsely time-resolved snapshots is an important problem in both natural sciences and machine learning. Here, we introduce a new deep learning approach for solving regularized unbalanced optimal transport (RUOT) and inferring continuous unbalanced stochastic dynamics from observed snapshots. Based on the RUOT form, our method models these dynamics without requiring prior knowledge of growth and death processes or additional information, allowing them to be learnt directly from data. Theoretically, we explore the connections between the RUOT and Schrödinger bridge problem and discuss the key challenges and potential solutions. The effectiveness of our method is demonstrated with a synthetic gene regulatory network. Compared with other methods, our approach accurately identifies growth and transition patterns, eliminates false transitions, and constructs the Waddington developmental landscape.},
+year={2025},
+doi={https://doi.org/10.48550/arXiv.2410.00844},
+preview={DeepRUOT.png},
+annotation = {† indicates first author. * indicates corresponding author.},
+selected={true},
+additional_info={~ **(Oral, ~1.8%)**},
+html={https://openreview.net/forum?id=gQlxd3Mtru},
+url={https://openreview.net/forum?id=gQlxd3Mtru}
+}
+
+@article{zhang2025genetic,
+      abbr={arxiv},
+      author={Zhenyi Zhang† and Jie Qiao and Yidong Chen* and Peijie Zhou*},
+      TITLE = {Genetic deconvolution of embryonic and maternal cell-free DNA in spent culture medium of human preimplantation embryo through deep learning},
+      year={2025},
+      month = {May},
+      publisher={arxiv},
+      doi={10.1101/2025.01.20.633979},
+      url={https://www.biorxiv.org/content/10.1101/2025.01.20.633979v1},
+      html={https://www.biorxiv.org/content/10.1101/2025.01.20.633979v1},
+      abstract={Noninvasive preimplantation genetic testing for aneuploidy based on embryonic cell-free DNA (cfDNA) released in spent embryo culture media (SECM) has brought hope in selecting embryos that are most likely to implant and grow into healthy babies during assisted reproduction. However, maternal DNA contamination in SECM significantly hampers the reliability of embryonic chromosome ploidy profiles, leading to false negative results, particularly at high contamination levels. Here, we present DECENT (deep copy number variation (CNV) reconstruction), a deep learning method to reconstruct embryonic CNVs and mitigate maternal contamination in SECM from single-cell methylation sequencing of cfDNA. DECENT integrates sequence features and methylation patterns by combining convolution modules, long-short memory, and attention mechanisms to infer the origin of cfDNA reads. The benchmarking study demonstrated DECENT's ability to estimate contamination proportions and restore embryonic chromosome aneuploidies in samples with varying contamination levels. In contaminated SECM clinical samples, including one with more than 80% maternal reads, DECENT achieved consistent CNV recovery with invasive tests. Overall, DECENT contributes to enhancing the diagnostic accuracy and effectiveness of cfDNA-based noninvasive preimplantation genetic testing, establishing a robust groundwork for its extensive clinical utilization in the field of reproductive medicine.},
+      preview={DECENT.png},
+      selected={true},
+      abbr={Adv. Sci.},
+      additional_info={Accepted by **Advanced Science (Q1, IF: 14.3)**},
+      annotation = {† indicates first author. * indicates corresponding author.},
+}
+
 @article{zhang2025integratingdynamicalsystemsmodeling,
       abbr={Entropy},
       author={Zhenyi Zhang† and Yuhao Sun† and Qiangwei Peng† and Tiejun Li* and Peijie Zhou*},
@@ -38,23 +73,22 @@
       annotation = {† indicates first author. * indicates corresponding author.},
 }
 
-@inproceedings{
-zhang2025learning,
-abbr={ICLR 2025 oral},
-title={Learning stochastic dynamics from snapshots through regularized unbalanced optimal transport},
-author={Zhang†, Zhenyi and Li*, Tiejun and Zhou*, Peijie},
-booktitle={The Thirteenth International Conference on Learning Representations},
-abstract={Reconstructing dynamics using samples from sparsely time-resolved snapshots is an important problem in both natural sciences and machine learning. Here, we introduce a new deep learning approach for solving regularized unbalanced optimal transport (RUOT) and inferring continuous unbalanced stochastic dynamics from observed snapshots. Based on the RUOT form, our method models these dynamics without requiring prior knowledge of growth and death processes or additional information, allowing them to be learnt directly from data. Theoretically, we explore the connections between the RUOT and Schrödinger bridge problem and discuss the key challenges and potential solutions. The effectiveness of our method is demonstrated with a synthetic gene regulatory network. Compared with other methods, our approach accurately identifies growth and transition patterns, eliminates false transitions, and constructs the Waddington developmental landscape.},
-year={2025},
-doi={https://doi.org/10.48550/arXiv.2410.00844},
-preview={DeepRUOT.png},
-annotation = {† indicates first author. * indicates corresponding author.},
-selected={true},
-additional_info={~ **(Oral)**},
-html={https://openreview.net/forum?id=gQlxd3Mtru},
-url={https://openreview.net/forum?id=gQlxd3Mtru}
+@article{zhang2024uncertainty,
+  title={Uncertainty Quantification of Phase Transition Problems with an Injection Boundary},
+  author={Zhang†, Zhenyi and Ma, Shengbo and Zhou*, Zhennan},
+  year={2024},
+  month = {February},
+  publisher={arxiv},
+  doi={10.48550/arXiv.2402.02806},
+  url={https://arxiv.org/abs/2402.02806},
+  html={https://arxiv.org/abs/2402.02806},
+  preview={UQicing.png},
+  abstract={We develop an enthalpy-based modeling and computational framework to quantify uncertainty in Stefan problems with an injection boundary. Inspired by airfoil icing studies, we consider a system featuring an injection boundary inducing domain changes and a free boundary separating phases, resulting in two types of moving boundaries. Our proposed enthalpy-based formulation seamlessly integrates thermal diffusion across the domain with energy fluxes at the boundaries, addressing a modified injection condition for boundary movement. Uncertainty then stems from random variations in the injection boundary. The primary focus of our Uncertainty Quantification (UQ) centers on investigating the effects of uncertainty on free boundary propagation. Through mapping to a reference domain, we derive an enthalpy-based numerical scheme tailored to the transformed coordinate system, facilitating a simple and efficient simulation. Numerical and UQ studies in one and two dimensions validate the proposed model and the extended enthalpy method. They offer intriguing insights into ice accretion and other multiphysics processes involving phase transitions.},
+  additional_info={Accepted by **Communications in Computational Physics**},
+  annotation = {† indicates first author. * indicates corresponding author.},
+  abbr={CiCP},
+  selected={true}
 }
-
 
 @article{sun2025variational,
       abbr={arxiv},
@@ -71,6 +105,7 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
+
 @article{wang2025jointvelocity,
       abbr={arxiv},
       author={Dongyi Wang† and Yuanwei Jiang† and Zhenyi Zhang† and Xiang Gu* and Peijie Zhou* and Jian Sun*},
@@ -85,21 +120,4 @@ url={https://openreview.net/forum?id=gQlxd3Mtru}
       preview={flow_matching.png},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
-}
-
-@article{zhang2024uncertainty,
-  title={Uncertainty Quantification of Phase Transition Problems with an Injection Boundary},
-  author={Zhang†, Zhenyi and Ma, Shengbo and Zhou*, Zhennan},
-  year={2024},
-  month = {February},
-  publisher={arxiv},
-  doi={10.48550/arXiv.2402.02806},
-  url={https://arxiv.org/abs/2402.02806},
-  html={https://arxiv.org/abs/2402.02806},
-  preview={UQicing.png},
-  abstract={We develop an enthalpy-based modeling and computational framework to quantify uncertainty in Stefan problems with an injection boundary. Inspired by airfoil icing studies, we consider a system featuring an injection boundary inducing domain changes and a free boundary separating phases, resulting in two types of moving boundaries. Our proposed enthalpy-based formulation seamlessly integrates thermal diffusion across the domain with energy fluxes at the boundaries, addressing a modified injection condition for boundary movement. Uncertainty then stems from random variations in the injection boundary. The primary focus of our Uncertainty Quantification (UQ) centers on investigating the effects of uncertainty on free boundary propagation. Through mapping to a reference domain, we derive an enthalpy-based numerical scheme tailored to the transformed coordinate system, facilitating a simple and efficient simulation. Numerical and UQ studies in one and two dimensions validate the proposed model and the extended enthalpy method. They offer intriguing insights into ice accretion and other multiphysics processes involving phase transitions.},
-  additional_info={Accepted by **Communications in Computational Physics**},
-  annotation = {† indicates first author. * indicates corresponding author.},
-  abbr={CiCP},
-  selected={true}
 }
