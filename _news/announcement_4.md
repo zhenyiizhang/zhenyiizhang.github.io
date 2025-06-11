@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper (DECENT) was accpeted by **Advanced Science (Q1, IF: 14.3)** :tada: A Successful collaboration with Dr. Yidong Chen (PKU Third Hospital), Prof. Jie Qiao (PKU Third Hospital) and Dr. Zhou.
+Our paper (DECENT) was accpeted by **Advanced Science** :tada: A Successful collaboration with Dr. Yidong Chen (PKU Third Hospital), Prof. Jie Qiao (PKU Third Hospital) and Dr. Zhou.
