@@ -46,8 +46,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-latest-review-was-published-online-tada-we-explore-how-scrna-seq-spatial-transcriptomics-and-computational-tools-reveal-spatiotemporal-cell-trajectories-and-fate-decisions-huge-thanks-to-my-collaborators-yuhao-qiangwei-and-my-advisors-prof-li-and-dr-zhou",
           title: 'Our latest review was published online :tada: We explore how scRNA-seq, spatial transcriptomics,...',
           description: "",
-          section: "News",},{id: "news-our-paper-decent-was-accpeted-by-advanced-science-q1-if-14-3-tada-a-successful-collaboration-with-dr-yidong-chen-pku-third-hospital-prof-jie-qiao-pku-third-hospital-and-dr-zhou",
-          title: 'Our paper (DECENT) was accpeted by Advanced Science (Q1, IF: 14.3) :tada: A...',
+          section: "News",},{id: "news-our-paper-decent-was-accpeted-by-advanced-science-q1-if-14-1-tada-a-successful-collaboration-with-dr-yidong-chen-pku-third-hospital-prof-jie-qiao-pku-third-hospital-and-dr-zhou",
+          title: 'Our paper (DECENT) was accpeted by Advanced Science (Q1, IF: 14.1) :tada: A...',
           description: "",
           section: "News",},{
         id: 'social-github',
