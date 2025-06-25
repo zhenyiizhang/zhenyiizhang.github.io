@@ -1,14 +1,17 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"zhou":
+  - firstname: ["Peijie", "P."]
+    url: https://cliffzhou92.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"li":
+  - firstname: ["Tiejun", "T."]
+    url: https://www.math.pku.edu.cn/teachers/litj/
+"qiao":
+  - firstname: ["Jie", "J."]
+    url: https://scholar.google.com/citations?user=_nMcGW8AAAAJ&hl=en&oi=ao
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"sun":
+  - firstname: ["Jian", "J."]
+    url: https://scholar.google.com/citations?user=SSgNWOMAAAAJ&hl=en&oi=ao
 
 "bach":
   - firstname: ["Johann Sebastian", "J. S."]
