@@ -1,17 +1,17 @@
-"zhou":
-  - firstname: ["Peijie", "P."]
-    url: https://cliffzhou92.github.io/
+#"zhou":
+#  - firstname: ["Peijie", "P."]
+#    url: https://cliffzhou92.github.io/
 
-"li":
-  - firstname: ["Tiejun", "T."]
-    url: https://www.math.pku.edu.cn/teachers/litj/
-"qiao":
-  - firstname: ["Jie", "J."]
-    url: https://scholar.google.com/citations?user=_nMcGW8AAAAJ&hl=en&oi=ao
+#"li":
+#  - firstname: ["Tiejun", "T."]
+#    url: https://www.math.pku.edu.cn/teachers/litj/
+#"qiao":
+#  - firstname: ["Jie", "J."]
+#    url: https://scholar.google.com/citations?user=_nMcGW8AAAAJ&hl=en&oi=ao
 
-"sun":
-  - firstname: ["Jian", "J."]
-    url: https://scholar.google.com/citations?user=SSgNWOMAAAAJ&hl=en&oi=ao
+#"sun":
+#  - firstname: ["Jian", "J."]
+#   url: https://scholar.google.com/citations?user=SSgNWOMAAAAJ&hl=en&oi=ao
 
 "bach":
   - firstname: ["Johann Sebastian", "J. S."]
