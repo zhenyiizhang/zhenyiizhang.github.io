@@ -49,6 +49,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-was-accpeted-by-advanced-science-q1-if-14-1-tada-a-successful-collaboration-with-dr-yidong-chen-pku-third-hospital-prof-jie-qiao-pku-third-hospital-and-dr-zhou",
           title: 'Our paper was accpeted by Advanced Science (Q1, IF: 14.1) :tada: A successful...',
           description: "",
+          section: "News",},{id: "news-we-have-three-papers-accepted-by-neurips-2025-tada-congratulations-to-yuhao-zihan-and-dongyi-on-their-first-wonderful-published-work-it-has-been-a-great-pleasure-collaborating-with-you-all-and-huge-thanks-to-my-advisors-prof-li-and-dr-zhou-for-their-invaluable-support",
+          title: 'We have three papers accepted by NeurIPS 2025 :tada: Congratulations to Yuhao, Zihan...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
