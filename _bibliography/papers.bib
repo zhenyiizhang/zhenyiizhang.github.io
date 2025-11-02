@@ -3,39 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{
+@article{
 zhang2025learning,
 abbr={ICLR 2025 oral},
 title={Learning stochastic dynamics from snapshots through regularized unbalanced optimal transport},
 author={Zhang†, Zhenyi and Li*, Tiejun and Zhou*, Peijie},
-booktitle={International Conference on Learning Representations},
+journal={International Conference on Learning Representations},
 abstract={Reconstructing dynamics using samples from sparsely time-resolved snapshots is an important problem in both natural sciences and machine learning. Here, we introduce a new deep learning approach for solving regularized unbalanced optimal transport (RUOT) and inferring continuous unbalanced stochastic dynamics from observed snapshots. Based on the RUOT form, our method models these dynamics without requiring prior knowledge of growth and death processes or additional information, allowing them to be learnt directly from data. Theoretically, we explore the connections between the RUOT and Schrödinger bridge problem and discuss the key challenges and potential solutions. The effectiveness of our method is demonstrated with a synthetic gene regulatory network. Compared with other methods, our approach accurately identifies growth and transition patterns, eliminates false transitions, and constructs the Waddington developmental landscape.},
 year={2025},
 doi={https://doi.org/10.48550/arXiv.2410.00844},
 preview={DeepRUOT.png},
 annotation = {† indicates first author. * indicates corresponding author.},
 selected={true},
-additional_info={~ **(Oral, ~1.8%)**},
+additional_info={~ **(ICLR Oral, ~1.8%)**},
 html={https://openreview.net/forum?id=gQlxd3Mtru},
 url={https://openreview.net/forum?id=gQlxd3Mtru}
 }
- @article{Zhang_2025,
-abbr={Preprint},
-title={Deciphering cell-fate trajectories using spatiotemporal single-cell transcriptomic data},
-url={http://dx.doi.org/10.22541/au.175735334.45794622/v1},
-DOI={10.22541/au.175735334.45794622/v1},
-html={https://www.researchgate.net/publication/395359552_Deciphering_cell-fate_trajectories_using_spatiotemporal_single-cell_transcriptomic_data?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0},
-publisher={Wiley},
-author={Zhang†, Zhenyi and Wang†, Zihan and Sun†, Yuhao and Shen†, Jiantao and Peng†, Qiangwei and Li*, Tiejun and Zhou*, Peijie},
-year={2025},
-selected={true},
-additional_info={Preprint},
-preview={model.png},
-annotation = {† indicates first author. * indicates corresponding author.},
-abstract={Cellular processes evolve dynamically across time and space. Single-cell and spatial omics technologies have provided high-resolution snapshots of gene expression, greatly expanding the capability to characterize cellular states. More recently, temporally resolved single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data have made it possible to investigate population-level changes across multiple time points and tissue contexts, creating new opportunities to reconstruct cellular dynamics. In this review, we summarize recent progresses in modeling strategies for time-series scRNA-seq and spatiotemporal data. We introduce the mathematical foundations of dynamical systems and generative modeling and highlight algorithmic advances that bring these approaches into practice. We further provide practical guidelines for selecting and applying appropriate methods in various research scenarios. By connecting mathematical frameworks with biological applications, this review illustrates how computational tools can deepen our understanding of the dynamic nature of single cells.},
-month={September} 
-}
-
 @article{zhang2025modelingcelldynamics,
       abbr={NeurIPS 2025},
       author={Zhenyi Zhang† and Zihan Wang† and Yuhao Sun† and Tiejun Li* and Peijie Zhou*},
@@ -43,15 +26,17 @@ month={September}
       year={2025},
       month = {May},
       publisher={NeurIPS 2025},
-      journal={NeurIPS 2025},
+      journal={Advances in Neural Information Processing Systems},
       doi={10.48550/arXiv.2505.11197},
       url={https://openreview.net/forum?id=Z6DJJIN8IJ},
       html={https://openreview.net/forum?id=Z6DJJIN8IJ},
+      additional_info={~ **(NeurIPS)**},
       abstract={Modeling the dynamics from sparsely time-resolved snapshot data is crucial for understanding complex cellular processes and behavior. Existing methods leverage optimal transport, Schrödinger bridge theory, or their variants to simultaneously infer stochastic, unbalanced dynamics from snapshot data. However, these approaches remain limited in their ability to account for cell-cell interactions. This integration is essential in real-world scenarios since intercellular communications are fundamental life processes and can influence cell state-transition dynamics. To address this challenge, we formulate the Unbalanced Mean-Field Schrödinger Bridge (UMFSB) framework to model unbalanced stochastic interaction dynamics from snapshot data. Inspired by this framework, we further propose CytoBridge, a deep learning algorithm designed to approximate the UMFSB problem. By explicitly modeling cellular transitions, proliferation, and interactions through neural networks, CytoBridge offers the flexibility to learn these processes directly from data. The effectiveness of our method has been extensively validated using both synthetic gene regulatory data and real scRNA-seq datasets. Compared to existing methods, CytoBridge identifies growth, transition, and interaction patterns, eliminates false transitions, and reconstructs the developmental landscape with greater accuracy.},
       preview={figure0.png},
       selected={true},
       annotation = {† indicates first author. * indicates corresponding author.},
 }
+
 
 @article{sun2025variational,
       abbr={NeurIPS 2025},
@@ -60,8 +45,9 @@ month={September}
       year={2025},
       month = {May},
       publisher={NeurIPS 2025},
-      journal={NeurIPS 2025},
+      journal={Advances in Neural Information Processing Systems},
       doi={10.48550/arXiv.2505.11823},
+      additional_info={~ **(NeurIPS)**},
       url={https://openreview.net/forum?id=Iguyg0LULD},
       html={https://openreview.net/forum?id=Iguyg0LULD},
       abstract={Recovering the dynamics from a few snapshots of a high-dimensional system is a challenging task in statistical physics and machine learning, with important applications in computational biology. Many algorithms have been developed to tackle this problem, based on frameworks such as optimal transport and the Schrödinger bridge. A notable recent framework is Regularized Unbalanced Optimal Transport (RUOT), which integrates both stochastic dynamics and unnormalized distributions. However, since many existing methods do not explicitly enforce optimality conditions, their solutions often struggle to satisfy the principle of least action and meet challenges to converge in a stable and reliable way. To address these issues, we propose Variational RUOT (Var-RUOT), a new framework to solve the RUOT problem. By incorporating the optimal necessary conditions for the RUOT problem into both the parameterization of the search space and the loss function design, Var-RUOT only needs to learn a scalar field to solve the RUOT problem and can search for solutions with lower action. We also examined the challenge of selecting a growth penalty function in the widely used Wasserstein-Fisher-Rao metric and proposed a solution that better aligns with biological priors in Var-RUOT. We validated the effectiveness of Var-RUOT on both simulated data and real single-cell datasets. Compared with existing algorithms, Var-RUOT can find solutions with lower action while exhibiting faster convergence and improved training stability.},
@@ -76,7 +62,8 @@ month={September}
       year={2025},
       month = {May},
       publisher={NeurIPS 2025},
-      journal={NeurIPS 2025},
+      journal={Advances in Neural Information Processing Systems},
+      additional_info={~ **(NeurIPS)**},
       doi={10.48550/arXiv.2505.13413},
       url={https://openreview.net/forum?id=aXAkNlbnGa},
       html={https://openreview.net/forum?id=aXAkNlbnGa},
@@ -138,4 +125,20 @@ month={September}
       doi = {https://doi.org/10.3390/e27050453},
       selected={false},
       annotation = {† indicates first author. * indicates corresponding author.},
+}
+ @article{Zhang_2025,
+abbr={Preprint},
+title={Deciphering cell-fate trajectories using spatiotemporal single-cell transcriptomic data},
+url={http://dx.doi.org/10.22541/au.175735334.45794622/v1},
+DOI={10.22541/au.175735334.45794622/v1},
+html={https://www.researchgate.net/publication/395359552_Deciphering_cell-fate_trajectories_using_spatiotemporal_single-cell_transcriptomic_data?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0},
+publisher={Wiley},
+author={Zhang†, Zhenyi and Wang†, Zihan and Sun†, Yuhao and Shen†, Jiantao and Peng†, Qiangwei and Li*, Tiejun and Zhou*, Peijie},
+year={2025},
+selected={true},
+additional_info={Preprint},
+preview={model.png},
+annotation = {† indicates first author. * indicates corresponding author.},
+abstract={Cellular processes evolve dynamically across time and space. Single-cell and spatial omics technologies have provided high-resolution snapshots of gene expression, greatly expanding the capability to characterize cellular states. More recently, temporally resolved single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data have made it possible to investigate population-level changes across multiple time points and tissue contexts, creating new opportunities to reconstruct cellular dynamics. In this review, we summarize recent progresses in modeling strategies for time-series scRNA-seq and spatiotemporal data. We introduce the mathematical foundations of dynamical systems and generative modeling and highlight algorithmic advances that bring these approaches into practice. We further provide practical guidelines for selecting and applying appropriate methods in various research scenarios. By connecting mathematical frameworks with biological applications, this review illustrates how computational tools can deepen our understanding of the dynamic nature of single cells.},
+month={September} 
 }
