@@ -28,5 +28,5 @@ My current research interests lie in
 - **AI for science**: applications of AI in climate change and medicine, etc. 
 
 
-Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn); [zhenyizhang.math@gmail.com](mailto:zhenyizhang.math@gmail.com)
+Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn) (or [zhenyizhang.math@gmail.com](mailto:zhenyizhang.math@gmail.com))
 
