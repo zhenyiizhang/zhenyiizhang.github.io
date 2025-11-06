@@ -52,6 +52,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-have-three-papers-accepted-by-neurips-2025-tada-congratulations-to-yuhao-zihan-and-dongyi-on-their-first-wonderful-published-work-it-has-been-a-great-pleasure-collaborating-with-you-all-and-huge-thanks-to-my-advisors-prof-li-and-dr-zhou-for-their-invaluable-support",
           title: 'We have three papers accepted by NeurIPS 2025 :tada: Congratulations to Yuhao, Zihan...',
           description: "",
+          section: "News",},{id: "news-i-received-the-outstanding-poster-award-at-the-csiam-2025-annual-meeting",
+          title: 'I received the Outstanding Poster Award at the CSIAM 2025 Annual Meeting.',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
