@@ -27,19 +27,24 @@
   ],
   "awards": [
     {
-      "title": "National Scholarship",
-      "date": "2020-11-01",
-      "awarder": "Ministry of Education, China"
+      "title": "National Scholarship (Graduate)",
+      "date": "2025-11-01",
+      "awarder": "Ministry of Education and Peking University"
     },
     {
-      "title": "National Scholarship",
-      "date": "2022-11-01",
-      "awarder": "Ministry of Education, China"
-    },
-    {
-      "title": "Scholarship of School of Mathematical Sciences",
-      "date": "2024-05-01",
+      "title": "Presidential PhD Fellowship",
+      "date": "2025-05-01",
       "awarder": "Peking University"
+    },
+    {
+      "title": "National Scholarship (Undergraduate)",
+      "date": "2020-11-01",
+      "awarder": "Ministry of Education"
+    },
+    {
+      "title": "National Scholarship (Undergraduate)",
+      "date": "2022-11-01",
+      "awarder": "Ministry of Education"
     }
   ]
 }
