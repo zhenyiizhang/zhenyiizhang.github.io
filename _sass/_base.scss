@@ -17,8 +17,18 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: BlinkMacSystemFont;
 }
-
+strong {
+  color: var(--global-text-color);
+  font-family: BlinkMacSystemFont;
+  font-weight: bold;
+  font-style: normal;
+}
+p, li,div,h5 {
+  font-size: 17px;
+  line-height: 1.7;
+}
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
