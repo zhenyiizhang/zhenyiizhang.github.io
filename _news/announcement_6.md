@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-##### I received the **Outstanding Poster Award** at the CSIAM 2025 Annual Meeting.
+##### I received the **Outstanding Poster Award** at the CSIAM 2025 Annual Meeting :tada:.
