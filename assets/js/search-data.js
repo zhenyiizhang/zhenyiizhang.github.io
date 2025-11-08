@@ -55,6 +55,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-the-outstanding-poster-award-at-the-csiam-2025-annual-meeting",
           title: 'I received the Outstanding Poster Award at the CSIAM 2025 Annual Meeting.',
           description: "",
+          section: "News",},{id: "news-our-paper-was-accepted-by-aaai-2026-tada-and-it-has-been-selected-for-an-oral-presentation-congratulations-to-yue-and-peiqi-on-their-wonderful-work",
+          title: 'Our paper was accepted by AAAI 2026 :tada: and it has been selected...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
