@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-was-accepted-by-npj-systems-biology-and-applications-tada",
           title: 'Our paper was accepted by npj Systems Biology and Applications :tada:',
           description: "",
+          section: "News",},{id: "news-i-received-the-pku-national-scholarship-ph-d-student-and-pku-presidential-ph-d-fellowship-this-year-tada",
+          title: 'I received the PKU National Scholarship (Ph.D. student) and PKU Presidential Ph.D. Fellowship...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
