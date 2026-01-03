@@ -4,18 +4,24 @@
     "image": "",
     "email": "zhenyizhang@stu.pku.edu.cn",
     "url": "https://zhenyiizhang.github.io/",
-    "profiles": [
-    ]
+    "location": {
+      "address": "School of Mathematical Sciences, Peking University",
+      "postalCode": "Beijing 100871",
+      "city": "Beijing",
+      "countryCode": "China",
+      "region": "Beijing"
+    }
   },
   "education": [
     {
-      "institution": "School of Mathematical Sciences, Peking University",
+      "institution": " School of Mathematical Sciences, Peking University.",
       "location": "Beijing, China",
       "url": "https://english.pku.edu.cn/",
-      "studyType": "PhD student",
+      "studyType": "Ph.D. student",
       "startDate": "2023-09-01",
-      "endDate": "Present"
-    },
+      "endDate": "Present",
+      "area": "Physics-informed generative modeling; Computational systems biology; AI for science."
+        },
     {
       "institution": "Cuiying Honors College, Lanzhou University",
       "location": "Lanzhou, China",
@@ -27,7 +33,7 @@
   ],
   "awards": [
     {
-      "title": "National Scholarship (Graduate)",
+      "title": "National Scholarship (Ph.D. student)",
       "date": "2025-11-01",
       "awarder": "Ministry of Education and Peking University"
     },
@@ -35,6 +41,11 @@
       "title": "Presidential PhD Fellowship",
       "date": "2025-05-01",
       "awarder": "Peking University"
+    },
+    {
+      "title": "Scholarship of School of Mathematics Sciences, Peking University",
+      "date": "2022-11-01",
+      "awarder": "School of Mathematics Sciences, Peking University"
     },
     {
       "title": "National Scholarship (Undergraduate)",
