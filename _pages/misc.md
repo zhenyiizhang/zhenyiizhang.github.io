@@ -10,7 +10,7 @@ nav_order: 6
 
 ## Invited Talks
 
-1. *The Thirteen International Conference on Learning Representations* (ICLR), Singapore. Here are the [Video](https://www.iclr.cc/virtual/2025/oral/31800) and the [Slides](https://www.iclr.cc/media/iclr-2025/Slides/31800_i2NXVyQ.pdf).
+1. *The Thirteen International Conference on Learning Representations* (ICLR), Singapore. Here are the [video](https://www.iclr.cc/virtual/2025/oral/31800) and the [slides](https://www.iclr.cc/media/iclr-2025/Slides/31800_i2NXVyQ.pdf).
 2. *The 8th Peking University Symposium for Outstanding Ph.D. Students in Computational and Applied Mathematics*, Beijing, China.  
 3. *China Scientific Machine Learning Conference*, Beijing, China. 
 
