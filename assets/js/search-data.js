@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/";
           },
-        },{id: "news-our-paper-was-accpeted-by-commun-comput-phys-tada-this-is-a-joint-work-with-prof-zhennan-zhou-westlake-university-and-shengbo-ma-zhejiang-university",
-          title: 'Our paper was accpeted by Commun. Comput. Phys. :tada: This is a joint...',
+        },{id: "news-our-paper-was-accepted-by-commun-comput-phys-tada-this-is-a-joint-work-with-prof-zhennan-zhou-westlake-university-and-shengbo-ma-zhejiang-university",
+          title: 'Our paper was accepted by Commun. Comput. Phys. :tada: This is a joint...',
           description: "",
           section: "News",},{id: "news-our-paper-was-accepted-by-iclr-2025-tada-and-it-has-also-been-selected-for-an-oral-presentation-1-8-an-incredible-journey-working-alongside-prof-li-and-dr-zhou-on-this-project",
           title: 'Our paper was accepted by ICLR 2025 :tada: and it has also been...',
@@ -46,8 +46,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-latest-review-was-published-online-tada-we-explore-how-scrna-seq-spatial-transcriptomics-and-computational-tools-reveal-spatiotemporal-cell-trajectories-and-fate-decisions",
           title: 'Our latest review was published online :tada: We explore how scRNA-seq, spatial transcriptomics,...',
           description: "",
-          section: "News",},{id: "news-our-paper-was-accpeted-by-advanced-science-q1-if-14-1-tada-a-successful-collaboration-with-dr-yidong-chen-pku-third-hospital-prof-jie-qiao-pku-third-hospital-and-dr-zhou",
-          title: 'Our paper was accpeted by Advanced Science (Q1, IF: 14.1) :tada: A successful...',
+          section: "News",},{id: "news-our-paper-was-accepted-by-advanced-science-q1-if-14-1-tada-a-successful-collaboration-with-dr-yidong-chen-pku-third-hospital-prof-jie-qiao-pku-third-hospital-and-dr-zhou",
+          title: 'Our paper was accepted by Advanced Science (Q1, IF: 14.1) :tada: A successful...',
           description: "",
           section: "News",},{id: "news-we-have-three-papers-accepted-by-neurips-2025-tada-congratulations-to-yuhao-zihan-and-dongyi-on-their-first-wonderful-published-work",
           title: 'We have three papers accepted by NeurIPS 2025 :tada: Congratulations to Yuhao, Zihan...',
