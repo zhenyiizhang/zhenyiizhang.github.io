@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "No. 5 Yiheyuan Road, School of Mathematical Sciences, Peking University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
