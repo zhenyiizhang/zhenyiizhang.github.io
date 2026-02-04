@@ -3,21 +3,48 @@ layout: default
 ---
 {% unless site.data.resume %}
   <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+    {% assign cv_name = page.cv_name %}
+    {% if cv_name == nil or cv_name == "" %}
+      {% assign cv_name = site.first_name | append: " " | append: site.middle_name | append: " " | append: site.last_name %}
+      {% assign cv_name = cv_name | strip %}
+    {% endif %}
+    {% if page.cv_pdf %}
+      {% if page.cv_pdf contains '://' %}
+        {% assign cv_pdf_url = page.cv_pdf %}
+      {% else %}
+        {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+      {% endif %}
+    {% endif %}
+    <header class="post-header cv-hero">
+      <div class="cv-hero__content">
+        <p class="cv-hero__eyebrow">Curriculum Vitae</p>
+        <div class="cv-hero__title-row">
+          <h1 class="cv-hero__name">{{ cv_name }}</h1>
+          {% if page.cv_pdf %}
+            <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="cv-hero__pdf">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>PDF</span>
+            </a>
+          {% endif %}
+        </div>
+        {% if page.cv_title %}
+          <p class="cv-hero__title">{{ page.cv_title }}</p>
         {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        {% if page.description %}
+          <p class="cv-hero__subtitle">{{ page.description }}</p>
+        {% endif %}
+      </div>
+      {% if page.cv_affiliations %}
+        <div class="cv-affiliations">
+          {% for item in page.cv_affiliations %}
+            <div class="cv-affiliation">
+              {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }} logo" loading="lazy">
+              {% endif %}
+              <span>{{ item.name }}</span>
+            </div>
+          {% endfor %}
+        </div>
       {% endif %}
     </header>
 
@@ -49,26 +76,48 @@ layout: default
   </div>
 {% else %}
   <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
+    {% assign cv_name = page.cv_name %}
+    {% if cv_name == nil or cv_name == "" %}
+      {% assign cv_name = site.first_name | append: " " | append: site.middle_name | append: " " | append: site.last_name %}
+      {% assign cv_name = cv_name | strip %}
+    {% endif %}
+    {% if page.cv_pdf %}
+      {% if page.cv_pdf contains '://' %}
+        {% assign cv_pdf_url = page.cv_pdf %}
+      {% else %}
+        {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+      {% endif %}
+    {% endif %}
+    <header class="post-header cv-hero">
+      <div class="cv-hero__content">
+        <p class="cv-hero__eyebrow">Curriculum Vitae</p>
+        <div class="cv-hero__title-row">
+          <h1 class="cv-hero__name">{{ cv_name }}</h1>
+          {% if page.cv_pdf %}
+            <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="cv-hero__pdf">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>PDF</span>
+            </a>
+          {% endif %}
+        </div>
+        {% if page.cv_title %}
+          <p class="cv-hero__title">{{ page.cv_title }}</p>
         {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        {% if page.description %}
+          <p class="cv-hero__subtitle">{{ page.description }}</p>
+        {% endif %}
+      </div>
+      {% if page.cv_affiliations %}
+        <div class="cv-affiliations">
+          {% for item in page.cv_affiliations %}
+            <div class="cv-affiliation">
+              {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }} logo" loading="lazy">
+              {% endif %}
+              <span>{{ item.name }}</span>
+            </div>
+          {% endfor %}
+        </div>
       {% endif %}
     </header>
 

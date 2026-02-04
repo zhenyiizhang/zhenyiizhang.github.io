@@ -2,12 +2,163 @@
  * CV shared styles
  *****************************/
 
+.cv-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: 24px;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cv-hero::before,
+.cv-hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.22;
+}
+
+.cv-hero::before {
+  width: 260px;
+  height: 260px;
+  top: -140px;
+  right: -90px;
+  background: radial-gradient(circle, var(--global-theme-color) 0%, transparent 70%);
+}
+
+.cv-hero::after {
+  width: 240px;
+  height: 240px;
+  bottom: -140px;
+  left: -110px;
+  background: radial-gradient(circle, #ffb347 0%, transparent 70%);
+}
+
+.cv-hero__content {
+  position: relative;
+  z-index: 1;
+}
+
+.cv-hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+
+.cv-hero__title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.cv-hero__name {
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.cv-hero__title {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+  color: var(--global-text-color-light);
+}
+
+.cv-hero__subtitle {
+  margin: 0.6rem 0 0;
+  color: var(--global-text-color-light);
+  max-width: 60ch;
+}
+
+.cv-hero__pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.cv-hero__pdf:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.cv-affiliations {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+}
+
+.cv-affiliation {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 0.85rem;
+}
+
+.cv-affiliation img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
 
 table.table-cv {
   background-color: transparent !important;
+}
+
+.cv .card {
+  border-radius: 18px;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.cv .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--global-theme-color);
+  opacity: 0.7;
+}
+
+.cv .card-title {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.85rem;
+  color: var(--global-theme-color);
+}
+
+.cv .list-group-item {
+  background: transparent;
+  border-color: var(--global-divider-color);
 }
 
 a.btncv {
@@ -51,6 +202,62 @@ i.iconinstitution {
   color: var(--global-theme-color);
   font-size: 0.95rem;
   margin-right: 0.3rem;
+}
+
+.cv-year-badge {
+  border-radius: 10px;
+  letter-spacing: 0.08em;
+  background: var(--global-theme-color) !important;
+  color: var(--global-bg-color) !important;
+}
+
+.cv-institution-row .institution {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cv-education-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.cv-location-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+
+.cv-edu-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.cv-edu-date.date-column {
+  width: 96px;
+  transform: translateX(-6px) translateY(-2px);
+}
+
+.cv-edu-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cv-edu-left .cv-year-badge {
+  min-width: 80px;
+}
+
+.cv-logo {
+  height: 26px;
+  width: auto;
+  object-fit: contain;
 }
 
 i.icondepartment {

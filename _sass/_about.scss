@@ -1,0 +1,55 @@
+/******************************************************************************
+ * About page styles
+ ******************************************************************************/
+
+.about-page {
+  position: relative;
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.about-hero {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.about-hero .post-title {
+  font-size: clamp(2.2rem, 3.2vw, 3rem);
+  line-height: 1.1;
+  margin-bottom: 0.3rem;
+}
+
+.about-hero .desc {
+  margin-bottom: 0;
+  color: var(--global-text-color-light);
+}
+
+.about-title-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.about-name__logo {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.about-content > p:first-of-type {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+@media (max-width: 576px) {
+  .about-name__logo {
+    height: 28px;
+  }
+}

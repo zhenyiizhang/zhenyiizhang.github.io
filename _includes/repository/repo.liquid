@@ -1,27 +1,26 @@
 {% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
+{% assign owner = repo_url[0] %}
+{% assign name = repo_url[1] %}
+{% assign delay = include.index | default: 0 | times: 0.06 %}
 
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+<div class="repo" style="--repo-delay: {{ delay }}s;">
+  <a
+    class="repo-card"
+    href="https://github.com/{{ include.repository }}"
+    data-repo="{{ include.repository }}"
+    data-owner="{{ owner }}"
+    data-name="{{ name }}"
+  >
+    <div class="repo-card__heading">
+      <div class="repo-card__name">{{ name }}</div>
+      <div class="repo-card__owner">{{ owner }}</div>
+    </div>
+    <p class="repo-card__desc">Open-source repository. Click to view on GitHub.</p>
+    <div class="repo-card__meta">
+      <span class="repo-card__pill repo-card__pill--type">GitHub</span>
+      <span class="repo-card__pill repo-card__pill--stars">★ <span class="repo-card__stars">--</span></span>
+      <span class="repo-card__pill repo-card__pill--lang"><span class="repo-card__lang">--</span></span>
+      <span class="repo-card__pill repo-card__pill--updated">Updated <span class="repo-card__updated">--</span></span>
+    </div>
   </a>
 </div>

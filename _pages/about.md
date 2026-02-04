@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://english.pku.edu.cn'>School of Mathematical Sciences, Peking University</a> 
+subtitle: <a href='https://english.pku.edu.cn'>School of Mathematical Sciences, Peking University</a> (北京大学数学科学学院)
+name_logo: /assets/img/pku_logo.png
+name_logo_alt: Peking University logo
 
 profile:
   align: right
@@ -29,4 +31,3 @@ My current research interests lie in
 
 
 Email: [zhenyizhang@stu.pku.edu.cn](mailto:zhenyizhang@stu.pku.edu.cn) (or [zhenyizhang.math@gmail.com](mailto:zhenyizhang.math@gmail.com))
-
