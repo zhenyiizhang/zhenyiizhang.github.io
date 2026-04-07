@@ -17,16 +17,12 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: 'Roboto Slab', Georgia, serif;
-  font-weight: 400;
+  font-family: "Times New Roman";
 }
 
 strong {
   color: var(--global-text-color);
+  font-family: "Times New Roman";
   font-weight: bold;
   font-style: normal;
 }
