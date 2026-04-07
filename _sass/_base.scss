@@ -17,11 +17,16 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Times New Roman";
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-weight: 400;
+}
+
 strong {
   color: var(--global-text-color);
-  font-family: "Times New Roman";
   font-weight: bold;
   font-style: normal;
 }
@@ -48,10 +53,12 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: none;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -309,6 +316,19 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 2px;
+      background: var(--global-theme-color);
+      border-radius: 1px;
+    }
 
     &:hover {
       color: var(--global-hover-color);
@@ -483,21 +503,22 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
+  border-top: 1px solid var(--global-divider-color);
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-text-color-light);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
   }
 
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-theme-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -966,10 +987,18 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.25rem;
+      padding: 1.25rem;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      transition: all 0.3s ease;
 
-      .preview {
+      &:hover {
+        background: rgba(37, 99, 235, 0.03);
+        border-color: rgba(37, 99, 235, 0.1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
       }
+
 
       .abbr {
         margin-bottom: 0.5rem;
@@ -978,6 +1007,11 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          border-radius: 6px;
+          font-size: 0.7rem;
+          padding: 0.3rem 0.6rem;
+          font-weight: 600;
+          letter-spacing: 0.03em;
 
           a {
             color: white;
@@ -996,6 +1030,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .preview {
+        border-radius: 10px;
+        overflow: hidden;
       }
 
       .author {
@@ -1034,10 +1073,17 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          border-radius: 6px;
+          font-size: 0.75rem;
+          font-weight: 500;
+          letter-spacing: 0.02em;
+          transition: all 0.2s ease;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: white;
+            background: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            transform: translateY(-1px);
           }
         }
         a.award.btn {

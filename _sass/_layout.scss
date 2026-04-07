@@ -35,6 +35,14 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 60%;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+    }
   }
 }
 
