@@ -3,6 +3,47 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{zhu2026geobridge,
+abbr={bioRxiv 2026},
+title={Generating and navigating single cell dynamics via a geodesic bridge between nonlinear transcriptional and linear latent manifolds},
+author={Zhu†, Jing and Zhang†, Zhenyi and Sun, Yuhao and Dai, Haocheng and Wen, Hanyu and Zhou*, Peijie and Chen*, Luonan},
+year={2026},
+month={Apr.},
+journal={bioRxiv},
+doi={10.64898/2026.03.31.715478},
+url={https://doi.org/10.64898/2026.03.31.715478},
+html={https://www.biorxiv.org/content/10.64898/2026.03.31.715478},
+abstract={Time-series single-cell RNA sequencing (scRNA-seq) captures cellular processes as sparse and unpaired snapshots, limiting our ability not only to reconstruct continuous cell state transitions, but also to navigate between states in a controlled and interpretable manner. Here we present GeoBridge, a framework modeling cellular dynamics as geodesic trajectories on the transcriptional manifold based on isometric geodesic theory. By learning the geodesic bridge mapping, the method theoretically and computationally transforms time-varying nonlinear transcriptional geodesics (original nonlinear manifold) into constant-velocity straight-line geodesics (latent linear manifold). In the learned geodesic space, continuous interpolation becomes biologically meaningful, enabling reconstruction of unobserved intermediate states and efficient navigation between distinct cellular phenotypes at a single-cell resolution. By mapping interpolated trajectories back to the original gene expression space, GeoBridge recovers smooth transcriptional programs that are robust to noise and snapshot sparsity. Leveraging the derived geodesic potentials, GeoBridge further infers pseudo-temporal trajectories with superior fidelity compared to mainstream approaches from single-snapshot scRNA-seq data without temporal annotation, and directly identifies genes that drive progression along transition paths. We demonstrate the utility of GeoBridge across diverse systems, where GeoBridge resolves EMT-MET progression in cancer stem cells and identifies stage-specific modules as well as the branching cell-fate dynamics in human pluripotent stem cells with higher reconstruction accuracy than state-of-art methods. More importantly, GeoBridge supports single-cell fate navigation in multi-target hematopoietic lineages, allowing neutrophil-biased cells to be virtually guided toward mast-cell fates along biologically plausible paths. Together, GeoBridge establishes a principled method that transforms sparse single-cell measurements into a continuous, controllable landscape for the reconstruction, navigation and manipulation of cellular state transitions.},
+selected={false},
+annotation = {† indicates first author. * indicates corresponding author.},
+}
+@article{zhou2026benchmarking,
+abbr={bioRxiv 2026},
+title={Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction},
+author={Zhou, Xueya and Wang, Zihan and Ling, Yue and Tian, Qiao and Zhang, Zhenyi and Li, Yanyi and Zhou*, Peijie and Chen*, Luonan},
+year={2026},
+month={Mar.},
+journal={bioRxiv},
+doi={10.64898/2026.03.10.710748},
+url={https://doi.org/10.64898/2026.03.10.710748},
+html={https://www.biorxiv.org/content/10.64898/2026.03.10.710748},
+abstract={Reconstructing cellular trajectories from time-resolved single-cell transcriptomics is fundamental to understanding processes from embryonic development to cancer progression. While single-cell foundation models (scFMs) promise universal biological representations through large-scale pretraining, their capacity to capture the non-linear dynamics governing cell-fate decisions remains uncharacterized. Here we systematically benchmark multiple scFMs across challenging biomedical scenarios involving branching lineages and continuous state transitions. By coupling zero-shot scFM embeddings with dynamic optimal transport, we evaluated their performance against a traditional highly variable gene (HVG) baseline in backtracking progenitor states, interpolating transition intermediates, and extrapolating future fates. We find that zero-shot scFM embeddings underperform the HVG baseline across diverse biological systems, particularly in recovering the distributional complexity of unobserved cells. Mechanistic analysis reveals that current scFM architectures tend to over-compress subtle temporal signals, causing an artificial "linearization" of branched biological structures that may obscure critical divergence points in disease progression. Our findings suggest that while scFMs provide unified cell-state views, the HVG baseline remains more robust for trajectory inference, identifying a fundamental "temporal-compression" bottleneck that must be addressed to develop next-generation, dynamics-aware foundation models.},
+selected={false},
+annotation = {† indicates first author. * indicates corresponding author.},
+}
+@article{zhou2026nice,
+abbr={SSRN 2026},
+title={NICE: A Two-Step Non-Invasive Framework for Embryo cfDNA Read Enrichment and Quality Assessment},
+author={Zhou, Xueya and Ding, Shu and Zhang, Zhenyi and Shangguan, Qiaoling and Qiao*, Jie and Zhou*, Peijie and Chen*, Yidong},
+year={2026},
+journal={SSRN},
+doi={10.2139/ssrn.6657238},
+url={https://doi.org/10.2139/ssrn.6657238},
+html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6657238},
+selected={false},
+annotation = {† indicates first author. * indicates corresponding author.},
+}
+
 @article{
 zhang2025learning,
 abbr={ICLR 2025 oral},
